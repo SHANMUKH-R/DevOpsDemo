@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping("/display")
     public ResponseEntity<String> display(){
-        String str = "Mayank spelled my name correctly, new commit-1";
+        String str = "Mayank spelled my name correctly, new commit-2";
         return ResponseEntity.ok(str);
     }
 }
